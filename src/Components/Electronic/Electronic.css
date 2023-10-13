@@ -1,0 +1,38 @@
+.home-electronics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 294px;
+    background-image: url(./image/coverElectronics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-electronics h5{
+    color: white;
+}
+
+.home-electronics h1{
+    color: white;
+}
+
+.home-electronics p{
+    color: white;
+}
+
+.card {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    margin: 10px 0 10px 0;
+}
+
+img {
+    height: 250px;
+}
+
+.card-body{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

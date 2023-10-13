@@ -1,0 +1,240 @@
+@media only screen and (max-width:768px){
+    .home-info{
+        margin: 10px;
+    }
+}
+img{
+    width: 100%;
+    height: 385px;
+}
+
+.home-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 294px;
+    background-image: url(./images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-info h5{
+    color: rgb(241, 196, 18);
+}
+
+.home-info h1{
+    color: white;
+}
+
+.home-info p{
+    color: white;
+}
+
+.btn{
+    background-color: rgb(248, 216, 35);
+    border: none;
+}
+
+.title-hotdeals{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(120, 118, 118);
+    padding:  10px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hotdeals{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .img-hotdeals{
+        display: flex;
+        justify-content: center;
+    }
+    .hotdeals img{
+       max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+        .hotdeals img{
+       max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+.second-info {
+    margin: 10px;
+}
+}    
+
+.discp-hotdeals span{
+    display: flex;
+    justify-content: center;
+}
+
+.title-newdeals{
+        display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(120, 118, 118);
+    padding: 10px 0 0 0;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price{
+   display: flex;
+   justify-content: space-around;
+}
+
+.price h3{
+   color: red;
+}
+
+.item{
+    min-height: 10rem;
+    min-width: 15rem;
+    padding: 10px 10px;
+}
+
+.item img{
+    width: 200px;
+    height: 200px;
+    border-radius: 2rem;
+    pointer-events: none;
+}
+
+.inner-carousel{
+  display: flex;
+}
+
+.carousel{
+    overflow: hidden;
+    cursor: grab;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+}
+
+.disc p{
+   font-weight: bolder;
+}
+
+.discTow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Add{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px;
+}
+
+.Add button{
+     border: none;
+ border-radius: 5px;
+ width: 50%;
+}
+
+.title h4{
+      border-bottom: 1px solid rgb(120, 118, 118);
+    padding: 5px;
+}
+
+.second-info{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    background-image: url(./images/Newcol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-info h5{
+    color: rgb(241, 196, 18);
+}
+
+.second-info h1{
+    color: white;
+}
+
+.second-info p{
+    color: white;
+}
+
+.title-offre{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(120, 118, 118);
+    padding: 10px 0 0 8px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+}
+
+.products img{
+    width: 100px;
+    height: 100px;
+}
+
+.info-product h3{
+    font-size: medium;
+    margin: 10px 0 0 0;
+}
+
+.title-bag{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(120, 118, 118);
+    padding: 10px 8px 0 8px;
+}
+
+.Handbag{
+    display: flex;
+    overflow-x: scroll;
+    padding: 14px;
+    width: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+}
+
+.Handbag .handbag-prod{
+    padding: 14px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+}
+
+.handbag-prod img{
+border: none;
+width: 200px;
+height: 200px;
+}
+
+.handbag-price{
+    display: flex;
+    justify-content: space-around;
+}
+
+.addbag{
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    color: black;
+}

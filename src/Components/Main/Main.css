@@ -1,0 +1,21 @@
+.main{
+    margin: 0;
+}
+
+.main ul{
+display: block;
+}
+
+.main ul a{
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 36px;
+}
+
+.main button{
+  border: none;
+  padding: 5px;
+    width: 100%;
+}

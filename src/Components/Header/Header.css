@@ -1,0 +1,218 @@
+.Header{
+    background-color: rgb(24, 40, 85);
+    height: 124px;
+}
+
+@media screen and (max-width: 480px) {
+ .Header{
+  height: 100px;
+ }
+}
+
+.head-up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar-up{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 177px;
+    padding: 5px;
+}
+
+select{
+    background: none;
+    border: none;
+    color: white;
+}
+
+select option{
+    background-color: rgb(24, 40, 85);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul a {
+    text-decoration: none;
+    padding: 5px;
+    color: bisque;
+    font-size: small;
+}
+
+.head-middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    flex: 1;
+    justify-content: start;
+    display: flex;
+}
+
+.logo h3{
+    color: white;
+    padding: 0 20px;
+}
+
+.last-three-letters{
+    color: #ffc107;
+}
+
+.search{
+    flex: 2;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+}
+
+.search input{
+    width: 100%;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+  .search .search-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    cursor: pointer;
+  }
+
+  .Results{
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    overflow: auto;
+    z-index: 2;
+    
+  }
+  .Results ul{ 
+   display: flex;
+   flex-direction: column;
+  }
+
+    .Results ul li a{ 
+   color: black;
+  }
+
+.cart{
+    flex: 1;
+    justify-content: end;
+    display: flex;
+    width: 3rem;
+  height: 3rem;
+}
+
+.cart a{
+  text-decoration: none;
+}
+
+.cart div{
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  color:rgb(241, 196, 18);
+  transform: translate(25%, 25%);
+}
+
+.cart .bi{
+    color: white;
+    font-size: x-large;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.cart .bi:hover{
+    color:  rgb(241, 196, 18);
+    
+}
+
+@media screen and (max-width: 400px) {
+  .head-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cart .bi{
+   margin: 0;
+  }
+
+  .cart{
+    position: absolute;
+    top: 89px important; 
+  }
+  .Header{
+    height: 124px;
+  }
+}
+
+  .Navbar-menu{
+    display: none;
+  }
+
+  .Navbar-menu .line{
+    width: 30px;
+    height: 3px;
+    background-color:white;
+    margin: 6px 0;
+  }
+
+  .list-group li a:hover{
+    background-color: rgb(241, 196, 18);
+    color: white;
+  }
+
+@media only screen and (max-width: 480px){
+  .Navbar-up{
+    display: none;
+  }
+  .second-nav{
+    display: none;
+  }
+
+  .list-group{
+   width: auto;
+  }
+
+    .Navbar-menu{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    margin: 0 10px 10px 10px;
+    padding-right: 10px;
+  }
+
+    .Navbar-menu a {
+    padding: 0;
+  }
+
+  .cart{
+    position: absolute;
+    top: 63px;
+    z-index: 2;
+    right: 8px;
+  }
+
+}

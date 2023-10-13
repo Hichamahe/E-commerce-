@@ -1,0 +1,10 @@
+.home-shoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./image/shoes cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}

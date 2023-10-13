@@ -1,0 +1,15 @@
+.home-watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./image/cover watch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.card {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    margin: 10px 0 10px 0;
+}

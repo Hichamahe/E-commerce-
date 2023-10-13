@@ -1,0 +1,150 @@
+.page{
+  background-image: url('./image/store.jpg');
+  background-size: cover;
+  height: 569px;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+@media screen and (max-width: 768px) {
+  .content{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .content{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .content{
+    width: 90%;
+  }
+}
+
+.title{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h3{
+  color: rgb(241, 196, 18);
+}
+
+.title h6{
+  color: white;
+}
+
+.form-login {
+  width: 100%;
+} 
+
+.form-login form{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+} 
+
+.form-login label{
+  color: white;
+}
+
+.form-login input[type="Email"]{
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+}
+
+.show-passed{
+ display: flex;
+ position: relative;
+ width: 90%;
+}
+
+.show-passed input{
+  width: 100%;
+  border-radius: 5px;
+  border: none; 
+}
+
+.show-passed svg{
+      position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    cursor: pointer;
+}
+
+.form-login i {
+  margin: 1px 5px;
+  opacity: 0.8;
+}
+
+.form-login i:hover {
+  opacity: 1;
+}
+
+.form-login input[type="chekbox"]{
+  float: left;
+}
+
+.error-message{
+  color: red;
+}
+
+.remembered{
+  margin: 5px 0;
+}
+
+.remembered input{
+  margin-right: 5px;
+}
+
+.form-login a{
+  color: white;
+}
+
+.form-login a:hover{
+  color: rgb(241, 196, 18);
+}
+
+.lien{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lien .sign-in{
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 324px) {
+  .lien .sign-in{
+  margin: 0 20px;
+}
+}
+
+.form-login .login{
+  width: 30%;
+  border: none;
+  color: white;
+  background-color: rgb(241, 196, 18);
+  border-radius: 5px;
+  margin: 10px 0;
+} 
